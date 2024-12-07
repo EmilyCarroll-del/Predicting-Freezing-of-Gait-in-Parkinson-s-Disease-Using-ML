@@ -21,10 +21,12 @@ The key benefits of this project are its contribution to PD research through ana
 
 ### Installation
 Download the data from the kaggle link above.
+
 For traditional ML models:
 - Downlaoad preprocessing and test_preprocessing to transform training and test datasets
 - Download one of the model files
 - Use the output of the preprocessing files to train a model
+
 For neural networks:
 - Preprocessing is included in the model file
 - Download a model and train it using the raw dataset
