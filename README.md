@@ -35,7 +35,7 @@ For neural networks:
 - Download a model and train it using the raw dataset
 
 ### License
-This project is licensed under the Apache License 2.0.
+This project is licensed under the Apache License 2.0. - see the LICENSE file for details.
 
 ### Acknowledgements
 Thank you to the Michael J. Fox Foundation, our challenge advisor, Barbara Marebwa, our TA, Mako Ohara, and the Break Through Tech AI program for making this project possible. We also took some inspiration for models from the Kaggle competition linked above.
