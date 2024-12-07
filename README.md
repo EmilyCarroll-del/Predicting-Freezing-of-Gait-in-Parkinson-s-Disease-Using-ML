@@ -48,8 +48,7 @@ Neural Networks:
 ### Results
 Traditional Models:
 - Similar results
-- Unable to capture the
-- complexity of the datasets
+- Unable to capture the complexity of the datasets
 
 Overall:
  - SVM and Gradient Boosting -> greatest potential
