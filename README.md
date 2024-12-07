@@ -56,7 +56,7 @@ Overall:
    - Difficult to fine-tune
  - For some labels, Naive Bayes and Decision Tree performed well
  - Little potential for improvement
- -
+
 Neural Networks
 - Incredibly computationally intensive
 - Undertrained -> limited amount of epochs
