@@ -19,6 +19,19 @@ The key benefits of this project are its contribution to PD research through ana
 - Bi-GRU model
 - Additional code to be used for future improvements
 
+### Installation
+Download the data from the kaggle link above.
+For traditional ML models:
+- Downlaoad preprocessing and test_preprocessing to transform training and test datasets
+- Download one of the model files
+- Use the output of the preprocessing files to train a model
+For neural networks:
+- Preprocessing is included in the model file
+- Download a model and train it using the raw dataset
+
+### License
+This project is licensed under the Apache License 2.0.
+
 ### Acknowledgements
 Thank you to the Michael J. Fox Foundation, our challenge advisor, Barbara Marebwa, our TA, Mako Ohara, and the Break Through Tech AI program for making this project possible. We also took some inspiration for models from the Kaggle competition linked above.
 
