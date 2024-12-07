@@ -22,6 +22,86 @@ The key benefits of this project are its contribution to PD research through ana
 - Bi-GRU model
 - Additional code to be used for future improvements
 
+###Methods
+Preprocessing pipeline:
+- Remove missing values
+- Remove small amount of outliers 
+- Filter the accelerometer data
+- Combination of oversampling using BorderlineSMOTE and undersampling using AllKNN in imblearn
+- Extract features using seglearn
+- Add label columns to feature dataframe, use the mode of each window
+- Drop low variance columns
+- Eliminate features with little or no correlation with training data
+- Eliminate one feature of a highly correlated pair
+- Dimensionality reduction + Rescaling the data
+
+Traditional Models:
+- Trained using preprocessed training and test datasets
+- Use libraries for model architecture
+- Hyperparameter tuning performed using gridsearch
+
+Neural Networks:
+- Preprocessed by removing missing values, removing outliers, and filtering
+- Windowed in 3 second chunks with a 1 second stride
+- Trained over several epochs, more suggested
+
+### Results
+Traditional Models:
+- Similar results
+- Unable to capture the
+- complexity of the datasets
+
+Overall:
+ - SVM and Gradient Boosting -> greatest potential
+   - Sensitive to hyperparameter tuning + many parameters
+   - Difficult to fine-tune
+ - For some labels, Naive Bayes and Decision Tree performed well
+ - Little potential for improvement
+ -
+Neural Networks
+- Incredibly computationally intensive
+- Undertrained -> limited amount of epochs
+- Bi-GRU and ResNet -> greatest potential
+  - Less validation loss
+  - More straightforward architectures
+- LSTM -> complex and difficult to tune hyperparameters
+
+Evaluated using the weighted average of precision, recall, and f1 score for each label in each dataset.
+
+DeFOG Turn
+
+Model          Precision  Recall   F1
+
+SVM               0.82     0.68   0.67
+
+Gradient Boosting 0.82     0.68   0.67
+
+tDCSFOG Turn
+
+Model    Precision  Recall   F1
+
+ResNet     0.76      0.59   0.44
+
+Bi-GRU     0.88     0.88   0.88
+
+### Potential Next Steps
+Preprocessing methods
+- Undersampling using clustering
+- Spectrogram, useful for ResNet
+  
+Models
+- Convolutional Neural Networks (CNNs)
+- Temporal Convolutional Networks (TCNs)
+- Transformers (e.g. Time Series Transformer)
+- Autoencoders and Variational Autoencoders (VAEs)
+
+Evaluation techniques
+- Grid search for neural networks
+- Validate models on unlabeled data
+- Stratified k-fold to tune imbalanced data
+
+Collect start hesitation FoG events within the DeFOG environment
+
 ### Installation
 Download the data from the kaggle link above.
 
