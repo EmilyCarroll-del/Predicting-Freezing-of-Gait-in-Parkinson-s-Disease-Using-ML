@@ -22,7 +22,7 @@ The key benefits of this project are its contribution to PD research through ana
 - Bi-GRU model
 - Additional code to be used for future improvements
 
-###Methods
+### Methods
 Preprocessing pipeline:
 - Remove missing values
 - Remove small amount of outliers 
