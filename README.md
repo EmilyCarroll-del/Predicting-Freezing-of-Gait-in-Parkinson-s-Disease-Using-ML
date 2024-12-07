@@ -15,6 +15,7 @@ The key benefits of this project are its contribution to PD research through ana
 - LSTM model
 - ResNet model
 - Bi-GRU model
+- Additional code to be used for future improvements
 
 ### Acknowledgements
 Thank you to the Michael J. Fox Foundation, our challenge advisor, Barbara Marebwa, our TA, Mako Ohara, and the Break Through Tech AI program for making this project possible. We also took some inspiration for models from the Kaggle competition linked above.
