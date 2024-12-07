@@ -1,5 +1,8 @@
 # Michael J. Fox Foundation - Predicting Freezing of Gait in Parkinson's Disease Using Machine Learning
-This project uses various machine learning models to predict three triggers of freezing of gait - turn, walking, and start hesitation - in Parkinson's disease (PD) using the DeFOG and tDCSFOG datasets. Datasets -> https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/data
+This project uses various machine learning models to predict three triggers of freezing of gait - turn, walking, and start hesitation - in Parkinson's disease (PD) using the DeFOG and tDCSFOG datasets. 
+
+### Datasets
+https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/data
 
 ### Introduction
 Freezing of gait is a detrimental symptom of PD that lowers independence and increases risk of falls. Using labeled accelerometer data collected from a lower back sensor with vertical, mediolateral, and anteroposterior sensors, this project aims to detect the start and stop of freezing of gait episodes. 
